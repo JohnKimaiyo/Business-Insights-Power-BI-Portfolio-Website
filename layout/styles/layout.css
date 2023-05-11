@@ -88,7 +88,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 /* Homepage */
 
 #featured_post{margin-bottom:45px;}
-#featured_post img{display:block; width:620px; height:270px; margin:0; padding:4px; border:1px solid #BFE009;}
+#featured_post img{display:block; width:950px; height:270px; margin:0; padding:4px; border:1px solid #BFE009;}
 #hpage_latest{display:block; width:100%;}
 #hpage_latest ul{margin:0; padding:0; list-style:none; display:inline;}
 #hpage_latest li{display:block; float:left; width:200px; margin:0 15px 0 0; padding:0;}
@@ -157,3 +157,26 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 #copyright{padding:15px 0;}
 #copyright p{margin:0; padding:0;}
+#myVideo {
+    position:;
+    right: ;
+    bottom: 0;
+    min-width: 50%; 
+    min-height: 50%;
+  }
+  
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 50%;
+    padding: 20px;
+  }
+  
+  
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
