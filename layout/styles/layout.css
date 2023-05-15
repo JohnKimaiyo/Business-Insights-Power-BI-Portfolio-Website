@@ -19,10 +19,14 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-size: 13px;
+    font-size: 15px;
     font-family: Georgia, "Times New Roman", Times, serif;
     color: #E5E5E5;
-    background-color: #151515;
+    background-color: #080808;
+}
+
+h1 {
+    font-size: 800px;
 }
 
 .justify {
@@ -59,16 +63,23 @@ br.clear {
 a {
     outline: none;
     text-decoration: none;
-    color: #BFE009;
-    background-color: #000000;
+    color: #16a311;
+    background-color: #141414;
+    text-align: center;
 }
 
-.fl_left,
+.header {
+    font-size: 50px;
+}
+
 .imgl {
     float: left;
 }
 
-.fl_right,
+.fl_right {
+    font-size: 800px;
+}
+
 .imgr {
     float: right;
 }
@@ -321,7 +332,7 @@ div.wrapper h6 {
 }
 
 #hpage_latest ul {
-    margin: 0;
+    margin: 20px;
     padding: 0;
     list-style: none;
     display: inline;
@@ -667,3 +678,12 @@ div.wrapper h6 {
 
 
 }
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
