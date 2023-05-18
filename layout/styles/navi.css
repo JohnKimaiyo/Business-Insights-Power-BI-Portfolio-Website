@@ -17,7 +17,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    background-color: hsl(76, 62%, 42%);
+    background-color: hsl(0, 65%, 42%);
 }
 
 #topnav li a:link,
@@ -27,14 +27,14 @@
     margin: 5px;
     padding: 10px;
     color: #f5faf5;
-    background-color: hsl(76, 71%, 42%);
+    background-color: hsl(0, 71%, 42%);
     text-transform: uppercase;
 }
 
 #topnav li a:hover,
 #topnav ul li.active a {
-    color: #e21717;
-    background-color: #000000;
+    color: #f8f3f3;
+    background-color: #c25160;
 }
 
 #topnav li li a:link,
@@ -46,7 +46,7 @@
     font-size: 15px;
     font-weight: normal;
     color: #141414;
-    background-color: #12b112;
+    background-color: #b6b7be;
     text-transform: none;
 }
 
@@ -67,7 +67,7 @@
 }
 
 #topnav li ul a {
-    width: 30px;
+    width: 10px;
 }
 
 #topnav li ul ul {
