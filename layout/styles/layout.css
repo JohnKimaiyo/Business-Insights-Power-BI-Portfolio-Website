@@ -29,6 +29,10 @@ h1 {
     font-size: 800px;
 }
 
+
+h2 {
+    font-size: 900px;
+}
 .justify {
     text-align: justify;
 }
@@ -262,7 +266,7 @@ div.wrapper h6 {
 /* ----------------------------------------------Gallery can be used anywhere------------------------------------- */
 
 .gallery {
-    padding: 20px 0 30px 0;
+    padding: 30px;
 }
 
 .wrapper .gallery h2 {
@@ -687,3 +691,4 @@ div.wrapper h6 {
     padding: 12px 16px;
     z-index: 1;
   }
+
